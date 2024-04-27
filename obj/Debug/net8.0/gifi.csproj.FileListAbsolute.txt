@@ -1,0 +1,14 @@
+c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\gifi.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\gifi.AssemblyInfoInputs.cache
+c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\gifi.AssemblyInfo.cs
+c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\gifi.csproj.CoreCompileInputs.cache
+c:\Users\hoge\Documents\playground\gifi\bin\Debug\net8.0\gifi.exe
+c:\Users\hoge\Documents\playground\gifi\bin\Debug\net8.0\gifi.deps.json
+c:\Users\hoge\Documents\playground\gifi\bin\Debug\net8.0\gifi.runtimeconfig.json
+c:\Users\hoge\Documents\playground\gifi\bin\Debug\net8.0\gifi.dll
+c:\Users\hoge\Documents\playground\gifi\bin\Debug\net8.0\gifi.pdb
+c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\gifi.dll
+c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\refint\gifi.dll
+c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\gifi.pdb
+c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\gifi.genruntimeconfig.cache
+c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\ref\gifi.dll

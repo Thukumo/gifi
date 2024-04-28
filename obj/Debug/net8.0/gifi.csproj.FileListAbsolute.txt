@@ -12,3 +12,4 @@ c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\refint\gifi.dll
 c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\gifi.pdb
 c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\gifi.genruntimeconfig.cache
 c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\ref\gifi.dll
+c:\Users\hoge\Documents\playground\gifi\obj\Debug\net8.0\gifi.sourcelink.json

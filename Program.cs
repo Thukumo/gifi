@@ -16,21 +16,22 @@ namespace gifi
     {
             try
             {
-                var hoge = await new HttpClient{Timeout = TimeSpan.FromSeconds(30)}.GetAsync("https://xgf.nu/"+ link);
+                HttpResponseMessage hoge = await new HttpClient{Timeout = TimeSpan.FromSeconds(30)}.GetAsync("https://xgf.nu/"+ link);
                 hoge.EnsureSuccessStatusCode();
-                if(hoge.RequestMessage.RequestUri.ToString() != "") //NullReferenceExceptionをcatchしてるのに注意される 無視
+                if(hoge.RequestMessage is not null && hoge.RequestMessage.RequestUri is not null) //注意がだるいからここで確認入れとく
+                if(hoge.RequestMessage.RequestUri.ToString() != "https://gigafile.nu/")
                 {
                     Console.WriteLine(hoge.RequestMessage.RequestUri.ToString());
                     return true;
                 }
+                return false;
             }
-            catch(Exception ex) when(ex is HttpRequestException || ex is TaskCanceledException || ex is NullReferenceException)
+            catch(Exception ex) when(ex is HttpRequestException || ex is TaskCanceledException) // || ex is NullReferenceException)
             {
                 return false;
             }
-            return false;
     }
-public static async Task<string> RetLinkAsync(string link) 
+public static async Task<string> RetLinkAsync(string link)
 {
   if(await Task.Run(() => IsVaildAsync(link)))
   {
@@ -52,7 +53,7 @@ public static async Task<string> RetLinkAsync(string link)
                 {
                     foreach(char l in lis.OrderBy(x => random.Next()))
                     {
-                        foreach(char m in lis.OrderBy(x => random.Next())) tasks.Add(RetLinkAsync(string.Concat(i, j, k, l, m)));
+                        foreach(char m in lis.OrderBy(x => random.Next())) tasks.Add(RetLinkAsync(string.Concat(m, l, k, j, i))); //いろんなところを探索させるために逆順にする
                         Task.WhenAll(tasks).Wait();
                         //foreach(var task in tasks) if(task.Result != "") //Console.WriteLine("https://xgf.nu/"+task.Result);
                         tasks.Clear();

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = gifi
-build_property.ProjectDir = C:\Users\hoge\Documents\playground\gifi\
+build_property.ProjectDir = c:\Users\hoge\Documents\playground\gifi\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

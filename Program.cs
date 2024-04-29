@@ -45,11 +45,11 @@ public static async Task<string> RetLinkAsync(string link)
         var lis = new List<char>("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789");
         int le = lis.Count;
         var ran = new Random();
-        var gomi = 62*62*62*62*62;
-        gomi = (gomi-gomi%256)/256+1;
+        //var gomi = 62*62*62*62*62;
+        //gomi = (gomi-gomi%256)/256+1;
         //全探索はあきらめててきとーに探索する!?
-        //同じサイズで
-        Parallel.For(0, gomi, new ParallelOptions(){MaxDegreeOfParallelism = 8}, (i) =>
+        //Parallel.For(0, gomi, new ParallelOptions(){MaxDegreeOfParallelism = 8}, (i) =>
+        while(true)Parallel.For(0, int.MaxValue, new ParallelOptions(){MaxDegreeOfParallelism = 8}, (i) =>
         {
             var random = new Random();
             var tasks = new List<Task<string>>();

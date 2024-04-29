@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gifi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f6821cd89bce280e02596481ba0c9ba7cb75014")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa2d0d08a1a12476c4d2787720173e37444b8e6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("gifi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gifi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
